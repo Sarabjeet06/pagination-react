@@ -1,0 +1,230 @@
+body{
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: rgb(17, 17, 39);
+}
+
+.outer-container{
+  display: flex;
+  flex-direction: column;
+}
+
+/* ------ Header section ----- */
+
+.header-container{
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.inputs-container{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 10px;
+}
+
+.inputs-container input{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  
+}
+
+.inputs-container button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: blue;
+}
+
+.cart-button{
+  padding: 12px 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+}
+
+
+
+
+/* ----- card section ----- */
+
+.outer-card-container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.product-card{
+  border-radius: 10px;
+  border: 1px solid #e2e1e1;
+  padding: 10px;
+  width: 300px;
+  object-fit: contain;
+  background-color: rgb(17, 17, 39);
+}
+
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  overflow: auto;
+  height: calc(100vh - 150px);
+}
+
+.card-loader{
+  display: flex;
+  justify-content: center;
+}
+
+.card-button{
+  color: white;
+  background-color: blue;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button-container{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.product-title{
+  font-size: 20px;
+  color: #696868;
+}
+
+.product-price{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+/* -------- pagination  section  ----*/
+
+.pagination-button{
+  color: white;
+  background-color: blue;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+
+.pagination-container{
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  gap: 10px;
+}
+
+.page-number{
+  background-color: rgb(175, 172, 172);
+  color: black;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.page-number:hover{
+  background-color: #2e2a2a;
+  color: white;
+}
+
+.active-page{
+  background-color: white;
+  color: black;
+  
+}
+
+/*  ----- cart-page----- */
+
+.cart-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart-products{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.cart-card{
+  display: flex;
+  gap:50px;
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 50%;
+}
+
+.cart-page-title{
+  margin: 20px 0px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.cart-card-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+
+}
+
+.cart-card-title{
+  font-size: 20px;
+}
+
+.cart-card-description{
+  font-size: 14px;
+}
+
+.cart-card-price{
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.cart-remove-button-container{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cart-remove-button{
+  border: none;
+  border-radius: 10px;
+  padding: 10px 14px;
+  background-color: blue;
+  color: white;
+}
+
+.cart-remove-button:hover{
+  cursor: pointer;
+  background-color: #059ce2ee;
+}
+
+/* ----- search section ---- */
+
+.searched-container{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
